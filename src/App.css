@@ -1,0 +1,57 @@
+body {
+    background: #f4f6f9;
+    font-family: Arial, sans-serif;
+}
+
+.exam-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.top-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.top-bar input {
+    padding: 8px;
+    width: 150px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.top-bar button {
+    padding: 8px 16px;
+    background: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.passage {
+    background: #f9f9f9;
+    padding: 12px;
+    border-left: 4px solid #2c3e50;
+    margin-bottom: 15px;
+}
+
+.question-block {
+    margin-bottom: 15px;
+}
+
+.option {
+    display: block;
+    margin: 5px 0;
+    cursor: pointer;
+}
