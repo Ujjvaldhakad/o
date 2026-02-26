@@ -190,7 +190,7 @@ export default function Science() {
                         <div key={i} className="question-block">
 
                             <div className="question-edit">
-                                <p className="numbering">{i + 1}.</p>
+                                <p className="numbering">{i + 1})</p>
                                 <textarea
                                     value={q.question}
                                     onChange={(e) => updateQuestion(i, e.target.value)}
@@ -224,12 +224,13 @@ export default function Science() {
                             <div className="options">
                                 {q.options.map((opt, j) => (
                                     <div key={j} className="option-item">
-                                        {String.fromCharCode(65 + j)}.
+                                        {String.fromCharCode(65 + j)})  
                                         <input
                                             value={opt.text}
                                             onChange={(e) =>
                                                 updateOption(i, j, e.target.value)
                                             }
+                                            style={{marginLeft:"0.5rem", padding:'1rem'}}
                                         />
 
                                         {opt.image && (
